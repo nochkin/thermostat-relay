@@ -2,11 +2,12 @@
 
 ## General introduction
 The Thermostat Relay Board (the Thermostat Board) bridges line voltage heating/cooling system and low voltage thermostats which can be used with 24 VAC systems.
+Source repository: https://github.com/nochkin/thermostat-relay
 
 Compatible low voltage smart thermostats are, but not limited to:
-* Ecobee (all generations)
-* Google Nest (all generations)
-* Other WiFi-based low voltage smart thermostats
+* Ecobee (all generations).
+* Google Nest (all generations). In case of using 3-stage fan, it's required for Nest Learning thermostat as it has additional connections for it.
+* Other WiFi-based low voltage smart thermostats.
 
 Compatible line voltage cooling/heating systems are those which are controlled by line voltage which can be 120V AC or 240V AC.
 
@@ -16,3 +17,12 @@ The fully populated board is capable of controlling Cooling, Heating and 3-stage
 The Thermostat Board consists of two logical parts:
 * Low voltage. This side takes control signals from the connected low voltage thermostat and sends control signals to correspondent relays.
 * High voltage. This side controls high voltage lines of the existing heating/cooling system or/and fan depending on the configuration.
+
+## Connection
+* WARNING *
+There is a high voltage which can be dangerous when not handled properly. Make sure you know what you are doing when working with a high line voltage.
+* WARNING *
+
+The schematic diagram using Nest thermostat as example is shown below:
+![Connection diagram](../images/thermostat-relay5-connection.png)
+

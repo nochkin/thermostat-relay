@@ -38,3 +38,6 @@ The final configuration should look like this:
 | * | Fan G3 (high speed) |
 | Rh | 24V AC (Power) |
 | C | 24V AC (Common) |
+
+In the Pro setup is may be neccessary to activate the Fan signal when heating or cooling.
+

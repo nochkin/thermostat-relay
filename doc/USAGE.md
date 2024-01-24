@@ -22,12 +22,14 @@ The Relay Board consists of two logical parts:
 > There is a high voltage which can be dangerous when not handled properly. Make sure you know what you are doing when working with a high line voltage.
 
 The schematic diagram using Nest thermostat as example is shown below:
+
 ![Connection diagram](../images/thermostat-relay5-connection.png)
 
 ## Nest wiring
 In order to able to use 3-stage fan, the setup should have a thermostat which has enough connections (i.e. Nest Learning thermostat).
 In case of the initial configuration of Nest thermostat, the configuration must be done using the Pro Setup to assign additional connections for the fan.
 The final configuration should look like this:
+
 ![Nest wiring](../images/nest-connection.png)
 | Connection | Function |
 | --- | --- |

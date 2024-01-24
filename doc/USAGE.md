@@ -1,20 +1,19 @@
 # Usage
 
 ## General introduction
-The Thermostat Relay Board (the Thermostat Board) bridges line voltage heating/cooling system and low voltage thermostats which can be used with 24 VAC systems.
+The Thermostat Relay Board (the Relay Board) is a bridge between line voltage heating/cooling system (normally operates at 120V or 240V AC) and a low voltage thermostat (operates at 24 VAC).
 Source repository: https://github.com/nochkin/thermostat-relay
 
 Compatible low voltage smart thermostats are, but not limited to:
 * Ecobee (all generations).
-* Google Nest (all generations). In case of using 3-stage fan, it's required for Nest Learning thermostat as it has additional connections for it.
+* Google Nest (all generations). In case when 3-stage fan is being used, a Nest Learning thermostat must be used due to additional connections supporting it.
 * Other WiFi-based low voltage smart thermostats.
+A thermostat must provide separate connections for heat and cool, and additional optional connections for fan.
 
-Compatible line voltage cooling/heating systems are those which are controlled by line voltage which can be 120V AC or 240V AC.
+A fully populated Relay Board is capable of controlling Cooling, Heating and 3-stage Fan. But the board can be built using some of the features depending on the requirements.
 
-The fully populated board is capable of controlling Cooling, Heating and 3-stage Fan. But the board can be built using some of the features depending on the requirements.
-
-## Board layout
-The Thermostat Board consists of two logical parts:
+## Relay Board layout
+The Relay Board consists of two logical parts:
 * Low voltage. This side takes control signals from the connected low voltage thermostat and sends control signals to correspondent relays.
 * High voltage. This side controls high voltage lines of the existing heating/cooling system or/and fan depending on the configuration.
 
@@ -26,7 +25,8 @@ The schematic diagram using Nest thermostat as example is shown below:
 ![Connection diagram](../images/thermostat-relay5-connection.png)
 
 ## Nest wiring
-In order to able to use 3-stage fan, the setup should have Nest Learning thermostat. During the initial configuration, it must be done using the Pro Setup to configure additional connections for the fan.
+In order to able to use 3-stage fan, the setup should have a thermostat which has enough connections (i.e. Nest Learning thermostat).
+In case of the initial configuration of Nest thermostat, the configuration must be done using the Pro Setup to assign additional connections for the fan.
 The final configuration should look like this:
 ![Nest wiring](../images/nest-connection.png)
 | Connection | Function |

@@ -25,3 +25,8 @@ The Thermostat Board consists of two logical parts:
 The schematic diagram using Nest thermostat as example is shown below:
 ![Connection diagram](../images/thermostat-relay5-connection.png)
 
+## Nest wiring
+In order to able to use 3-stage fan, the setup should have Nest Learning thermostat. During the initial configuration, it must be done using the Pro Setup to configure additional connections for the fan.
+The final configuration should look like this:
+![Nest wiring](../images/nest-connection.png)
+

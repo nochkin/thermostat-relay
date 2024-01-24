@@ -19,9 +19,8 @@ The Thermostat Board consists of two logical parts:
 * High voltage. This side controls high voltage lines of the existing heating/cooling system or/and fan depending on the configuration.
 
 ## Connection
-* WARNING *
-There is a high voltage which can be dangerous when not handled properly. Make sure you know what you are doing when working with a high line voltage.
-* WARNING *
+> [!CAUTION]
+> There is a high voltage which can be dangerous when not handled properly. Make sure you know what you are doing when working with a high line voltage.
 
 The schematic diagram using Nest thermostat as example is shown below:
 ![Connection diagram](../images/thermostat-relay5-connection.png)

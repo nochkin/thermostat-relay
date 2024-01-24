@@ -29,4 +29,12 @@ The schematic diagram using Nest thermostat as example is shown below:
 In order to able to use 3-stage fan, the setup should have Nest Learning thermostat. During the initial configuration, it must be done using the Pro Setup to configure additional connections for the fan.
 The final configuration should look like this:
 ![Nest wiring](../images/nest-connection.png)
-
+| Connection | Function |
+| --- | --- |
+| Y1 | Cool |
+| W1 | Heat |
+| G | Regular fan (low speed) |
+| Y2 | Fan G2 (medium speed) |
+| * | Fan G3 (high speed) |
+| Rh | 24V AC (Power) |
+| C | 24V AC (Common) |

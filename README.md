@@ -4,4 +4,5 @@ The Board is designed to convert old line voltage thermostat systemts to low vol
 
 # Contents
 * [Usage and Connection diagram](doc/USAGE.md)
-* Schematic
+* [Schematic](doc/SCHEMATIC.md)
+
